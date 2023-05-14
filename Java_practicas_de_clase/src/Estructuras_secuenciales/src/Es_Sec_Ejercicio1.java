@@ -1,3 +1,5 @@
+package Estructuras_secuenciales.src;
+
 import java.util.Scanner;
 
 public class Es_Sec_Ejercicio1 {

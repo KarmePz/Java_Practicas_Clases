@@ -2,6 +2,9 @@ package Estructuras_condicionales.src;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
+//1) Determinar si un alumno aprueba o desaprueba un curso, sabiendo que
+// aprueba si su promedio de tres calificaciones
+// es mayor o igual a 60; desaprueba en caso contrario.
 public class Est_Con_Ejercicio1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

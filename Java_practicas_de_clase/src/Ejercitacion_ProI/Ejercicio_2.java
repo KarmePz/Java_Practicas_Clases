@@ -41,7 +41,7 @@ public class Ejercicio_2 {
             if (Arreglo[i].equals(Nombre)) {
                 Arreglo[i] = Arreglo[nuevoTamaño - 1];
                 nuevoTamaño--;
-                i--; 
+                i--;
             }
         }
         if (nuevoTamaño == 0) {

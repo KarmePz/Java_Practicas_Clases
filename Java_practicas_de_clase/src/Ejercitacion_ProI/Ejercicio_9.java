@@ -40,7 +40,7 @@ public class Ejercicio_9 {
         }
     }
 
-    public static List<Integer> InterseccionLD(List<Integer> List1, List<Integer> List2) {
+    public static List<Integer> InterseccionLD(List<Integer> List1, List<Integer> List2) {//NO SE CAMBIO NOMBRE DE FUNCION PERO SI SE CAMBIO SU CONTENIDO
         int i, j, k = 0;
         List<Integer> Fusion = new ArrayList<>();
         for (int valor: List1) {

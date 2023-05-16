@@ -20,7 +20,7 @@ public class Ejercicio_7 {
         List<Integer> Lista1 = new ArrayList<>();
         Lista1.add(104);Lista1.add(36);  Lista1.add(25);  Lista1.add(7);  Lista1.add(12);  Lista1.add(9);//Lista1 = 104,36,25,7,12,9
         List<Integer> Lista2 = new ArrayList<>();
-        Lista2.add(82);Lista2.add(34);  Lista2.add(78);  Lista2.add(26);//Lista 2 = 82,34,78,26
+        Lista2.add(82);Lista2.add(34);  Lista2.add(78);  Lista2.add(26);Lista2.add(12);//Lista 2 = 82,34,78,26
         List<Integer> Lista3 = UnionLD(Lista1,Lista2);
         MostrarLista(Lista3);
     }
@@ -46,6 +46,7 @@ public class Ejercicio_7 {
         int i,j;
         List<Integer> union = new ArrayList<>();
         for (i=0; i<List1.size();i++){
+
             union.add(List1.get(i));
         }
         for (j=0; j<List2.size();j++){
